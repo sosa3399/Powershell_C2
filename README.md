@@ -1,5 +1,5 @@
 # Powershell_C2
-A basic Powershell C2 that i made some time ago and how to build it
+A basic Powershell C2 that I made some time ago and how to build it
 
 ## Installation
 Clone the repository and read the Installation.txt
