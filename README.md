@@ -8,7 +8,7 @@ You'll need to install powershell on [Linux](https://learn.microsoft.com/en-us/p
 You'll also need [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) in order to obfuscate the code (this will help with the endpoint evasion, but It's not granted to work). Back when I tested it, I used AST type obfuscation, this might not work now.    
 
 ## Installation
-Git clone this repository, 
+Git clone this repository, and read the comments on the code
 
 ### notes
 
