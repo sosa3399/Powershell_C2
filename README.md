@@ -4,9 +4,11 @@ A basic Powershell C2 that I made some time ago and how to build it
 
 ## Requierments
 You'll need to install powershell on [Linux](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-linux?view=powershell-7.3) or you can simply build it on a Windows machine. 
+
 You'll also need [Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation) in order to obfuscate the code (this will help with the endpoint evasion, but It's not granted to work). Back when I tested it, I used AST type obfuscation, this might not work now.    
 
 __Important__
+
 Before converting it to .exe with [ps1 to exe](https://www.majorgeeks.com/files/details/ps1_to_exe.html) it is important to make copies and make small modifications so that each one has a different hash. You'll have to run this app on Windows or make the code executable yourself (I'll be uploading a C program to turn PowerShell Scripts to executable so stay tuned).
 
 ## Installation
