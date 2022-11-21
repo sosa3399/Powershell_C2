@@ -16,6 +16,8 @@ Git clone this repository, and read the comments on the code.
 
 __Summary__: Clone -> Change the required parameters of both .ps1 -> Make different copies of base_template.ps1 with different things (ex: Set-Variable -Name john -Value ("aaaa"), so it has a different hash) -> run ps1 to exe and make them windows executables -> host the base_template.ps1 executables (python3 -m http.server 80) -> run your listener with netcat (nc -lvnp port, since you'll have multiple connexions in different ports you can use tmux) -> run the dropper_template.ps1 executable on the target
 
+Or just run the Builder.py script (insider /builder), though I recommend to read all in order to understand how it works.
+
 ### notes
 
 6 months ago more or less was not detected by Windows Defender, it might have changed, haven't had the opportunity to test it right now. In a near future I'll make a python program to make the setup easier.
